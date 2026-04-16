@@ -27,8 +27,12 @@
     height: 350px;
     padding-bottom: 35px;
     border: 5px rgb(53, 53, 53);
+    margin: 30px;
     display: flex;
     align-items: top;
+    background-color: white;
+    box-shadow:0px 0px 10px rgb(158, 158, 158);
+
 }
 
 .nav-btn {
@@ -52,7 +56,6 @@
 
 .btn-container {
 
-    width:1100px;
     height:70px;
     text-align: center;
     /*border:1px solid white;*/
@@ -61,7 +64,7 @@
 }
 
 .border-unity {
-    border:1px solid silver;
+    border: 1px solid silver;
     border-radius:5px;
     margin-bottom:10px;
 }
@@ -81,6 +84,14 @@
     margin-top:10px;
 }
 
+.cast-pic {
+    width:220px;
+    height: 250px;
+    margin-left: 10px;
+    margin-top:10px;
+    text-align: center;
+}
+
 .tab {
     color:rgb(0, 0, 0);
     font-size:16px;
@@ -97,4 +108,29 @@
     text-align:center;
 }
 
+.cast{
+    height: 220px;
+    padding-bottom: 35px;
+    border: 5px rgb(53, 53, 53);
+    margin: 30px;
+    background-color: white;
+    box-shadow:0px 0px 10px rgb(158, 158, 158);
+    text-align: center;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+}
 
+.card img {
+    border: 2px solid rgb(0, 0, 0);
+    height: 200px;   /* adjust size */
+    width: auto;
+    display: block;
+    box-shadow:0px 0px 10px rgb(158, 158, 158);
+
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
