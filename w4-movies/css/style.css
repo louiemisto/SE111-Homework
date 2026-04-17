@@ -1,21 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../images/123.jpg)
+}
+
 #main{
     background-color:rgba(231, 231, 231, 0.85);
     width:1000px;
     margin:auto;
-    box-shadow:3px 3px 5px black;
+    box-shadow:0px 0px 20px black;
     border-radius:5px;
     min-height:1000px;
+    display: flex;
+    flex-direction: column;
+    min-height: 1000px;
 }
 
 #header{
     height: 60px;
     width: 1000px;
     text-align: center;
-    background-color: rgb(78, 149, 255);
+    background-color: rgb(35, 47, 65);
     padding-top: 25px;
     line-height: 0px;
-    text-shadow: 3px 3px 8px rgb(255, 255, 255);
-
+    color: white;
 }
 
 #nav{
@@ -32,6 +43,17 @@
     align-items: top;
     background-color: white;
     box-shadow:0px 0px 10px rgb(158, 158, 158);
+
+}
+
+#review{
+    height: 350px;
+    border: 5px rgb(53, 53, 53);
+    margin: 30px;
+    display: flex;
+    background-color: white;
+    box-shadow:0px 0px 10px rgb(158, 158, 158);
+    text-align: top;
 
 }
 
@@ -54,8 +76,23 @@
     text-shadow: 1px 1px 20px rgb(255, 255, 255);
 }
 
-.btn-container {
+.footer-btn {
+    width: 193px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(212, 212, 212);
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 3px 3px 5px black;
+    color: black;
+    float: none;
+    margin: 0;
 
+}
+
+.btn-container {
     height:70px;
     text-align: center;
     /*border:1px solid white;*/
@@ -64,17 +101,21 @@
 }
 
 .border-unity {
+    background-color: rgb(255, 255, 255);
     border: 1px solid silver;
     border-radius:5px;
     margin-bottom:10px;
 }
 
 #footer{
-    height: 50px;
+    height: 100px;
     text-align: center;
-    padding-top: 35px;
-    background-color: rgb(78, 149, 255);
-
+    background-color: rgb(35, 47, 65);
+    margin-bottom: 0px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-pic {
@@ -97,6 +138,13 @@
     font-size:16px;
     font-family:Montserrat2, Helvetica, sans-serif;
     margin-left: 50px;
+}
+
+.review-text {
+    max-width: 700px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .desc {
@@ -122,7 +170,7 @@
 }
 
 .card img {
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(35, 47, 65);
     height: 200px;   /* adjust size */
     width: auto;
     display: block;
@@ -134,3 +182,5 @@
     margin-top: 10px;
     font-weight: bold;
 }
+
+
