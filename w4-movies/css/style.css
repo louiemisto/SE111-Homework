@@ -47,14 +47,14 @@ body{
 }
 
 #review{
-    height: 350px;
+    height: 650px;
     border: 5px rgb(53, 53, 53);
     margin: 30px;
-    display: flex;
     background-color: white;
     box-shadow:0px 0px 10px rgb(158, 158, 158);
     text-align: top;
-
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .nav-btn {
@@ -63,8 +63,6 @@ body{
     text-align:center;
     line-height:35px;
     text-decoration:none;
-    /*font-size:30px;*/
-    /*border:1px solid red;*/
     display:block;
     float:left;
     margin-right:2px;
@@ -74,6 +72,11 @@ body{
     box-shadow:3px 3px 5px black;
     color: black;
     text-shadow: 1px 1px 20px rgb(255, 255, 255);
+}
+
+.nav-btn:hover {
+    background-color:rgba(0,0,0, 0.85);
+    color: white;
 }
 
 .footer-btn {
@@ -135,16 +138,29 @@ body{
 
 .tab {
     color:rgb(0, 0, 0);
-    font-size:16px;
+    font-size:18px;
     font-family:Montserrat2, Helvetica, sans-serif;
-    margin-left: 50px;
+    margin: 20px;
 }
 
 .review-text {
-    max-width: 700px;
-    margin: auto;
-    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.rev-content {
+    text-align: left;
     line-height: 1.6;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:Montserrat2, Helvetica, sans-serif;
+
+}
+
+.rev-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .desc {
@@ -157,15 +173,15 @@ body{
 }
 
 .cast{
-    height: 220px;
+    height: 270px;
     padding-bottom: 35px;
     border: 5px rgb(53, 53, 53);
-    margin: 30px;
+    margin: 30px 0;
     background-color: white;
     box-shadow:0px 0px 10px rgb(158, 158, 158);
     text-align: center;
     display: flex;
-    gap: 90px;
+    gap: 60px;
     justify-content: center;
 }
 
@@ -173,14 +189,12 @@ body{
     border: 2px solid rgb(35, 47, 65);
     height: 200px;   /* adjust size */
     width: auto;
-    display: block;
     box-shadow:0px 0px 10px rgb(158, 158, 158);
-
 }
 
 .card p {
-    margin-top: 10px;
     font-weight: bold;
+    text-align: center;
 }
 
 
