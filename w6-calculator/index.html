@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        var operation = prompt("Would you like to add, subtract, multiply or divide")
+        var num1 = Number(prompt("Enter first number"))
+        var num2 = Number(prompt("Enter second number"))
+
+        function add(num1, num2) {
+            return num1 + num2
+        }
+
+        function subtract(num1, num2) {
+            return num1 - num2
+        }
+
+        function multiply (num1 , num2) {
+            return num1 * num2
+        }
+
+        function divide(num1, num2) {
+            return num1 / num2
+        }
+
+        if(operation === "add") {
+            console.log(add(num1, num2))
+        }
+
+        if(operation === "subtract") {
+            console.log(subtract(num1, num2))
+        }
+
+        if(operation === "multiply") {
+            console.log(multiply(num1, num2))
+        }
+
+        if(operation === "divide") {
+            console.log(divide(num1, num2))
+        }
+
+
+        
+    </script>
+</body>
+</html>
